@@ -1,6 +1,6 @@
 import { createElement as h } from 'react';
 import { Card, Empty } from './ui.js';
-import { ago } from '../lib/util.js';
+import { ago } from './util.js';
 
 export function Dash({prof,autos,chats,log,go,newAuto}){
   const hr=new Date().getHours(),g=hr<12?'Good morning':hr<18?'Good afternoon':'Good evening';
