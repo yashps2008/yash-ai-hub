@@ -1,6 +1,6 @@
 import { createElement as h, useState } from 'react';
 import { Card } from './ui.js';
-import { AC } from '../lib/util.js';
+import { AC } from './util.js';
 
 export function Settings({prof,setProf,reset,say}){
   const [sure,setSure]=useState(false);
