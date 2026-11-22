@@ -1,6 +1,6 @@
 import { createElement as h, useState } from 'react';
 import { Card, Empty, Demo } from './ui.js';
-import { ago } from '../lib/util.js';
+import { ago } from './util.js';
 
 export function IG({autos,log,newAuto,edit,toggle,del,clearLog}){const [cd,setCd]=useState(null);
   return h('div',{className:'page gap'},
