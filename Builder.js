@@ -1,6 +1,6 @@
 import { createElement as h, useState } from 'react';
 import { Card, Toggle, Demo } from './ui.js';
-import { uid, okUrl, norm } from '../lib/util.js';
+import { uid, okUrl, norm } from '../util.js';
 
 export const blank=()=>({id:uid(),name:'',post:'Select post/reel…',trigger:'keyword',keywords:[],dm:true,follow:false,msg:'Hey! Thanks for commenting 🙌 Here are the links you asked for:',links:[],enabled:false});
 export function Builder({init,save,cancel,del,isNew,say}){
