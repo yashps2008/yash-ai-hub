@@ -1,11 +1,11 @@
 import { createElement as h, Fragment, useState, useEffect } from 'react';
-import { uid, AC, useLS } from './lib/util.js';
-import { reply } from './lib/assistant.js';
-import { Dash } from './components/Dash.js';
-import { Chat } from './components/Chat.js';
-import { IG } from './components/IG.js';
-import { Builder, blank } from './components/Builder.js';
-import { Settings } from './components/Settings.js';
+import { uid, AC, useLS } from './util.js';
+import { reply } from './assistant.js';
+import { Dash } from './Dash.js';
+import { Chat } from './Chat.js';
+import { IG } from './IG.js';
+import { Builder, blank } from './Builder.js';
+import { Settings } from './Settings.js';
 
 export default function App(){
   const [view,setView]=useState('dash'),[draft,setDraft]=useState(null);
